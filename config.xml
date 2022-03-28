@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.example.hello" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>HelloWorld</name>
+    <description>Sample Apache Cordova App</description>
+    <content src="https://abhinavms.github.io/cookieTest/" />
+    <access origin="*" />
+    <allow-navigation href="*" />
+    <allow-intent href="*" />
+    <plugin name="sample-plugin" spec="sample-plugin" />
+    <engine name="ios" spec="6.2.0" />
+</widget>
