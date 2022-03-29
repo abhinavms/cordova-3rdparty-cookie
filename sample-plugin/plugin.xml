@@ -16,24 +16,8 @@
             </feature>
         </config-file>
 
-        <config-file target="*-Info.plist" parent="CFBundleDevelopmentRegion">
-            <string>en</string>
-        </config-file>
-
         <config-file target="*-Info.plist" parent="NSCrossWebsiteTrackingUsageDescription">
             <string>For enabling cookies in customer plugins embedded as iframes</string>
         </config-file>
-
-        <config-file target="*-Info.plist" parent="UIUserInterfaceStyle">
-            <string>Dark</string>
-        </config-file>
-
-        <config-file target="*-Info.plist" parent="WKAppBoundDomains">
-            <array>
-                <string>abhinavms.github.io</string>
-            </array>
-        </config-file>
-
-        <hook type="before_compile" src="scripts/modifyWebViewEngine.js" />
     </platform>
 </plugin>

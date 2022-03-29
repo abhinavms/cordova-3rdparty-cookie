@@ -5,7 +5,6 @@
     "cordova": {
       "id": "sample-plugin",
       "platforms": [
-        "android",
         "ios"
       ]
     },
