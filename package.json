@@ -18,11 +18,13 @@
       "ios"
     ],
     "plugins": {
-      "sample-plugin": {}
+      "sample-plugin": {},
+      "cordova-plugin-wkwebview-engine": {}
     }
   },
   "devDependencies": {
-    "cordova-ios": "^6.2.0",
+    "cordova-ios": "^5.1.1",
+    "cordova-plugin-wkwebview-engine": "^1.2.2",
     "sample-plugin": "file:sample-plugin"
   }
 }
