@@ -22,7 +22,7 @@
     }
   },
   "devDependencies": {
-    "cordova-ios": "^6.2.0",
+    "cordova-ios": "^6.0.0",
     "sample-plugin": "file:sample-plugin"
   }
 }
